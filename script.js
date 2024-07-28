@@ -137,11 +137,68 @@
 // console.log(filteredLanguages);
 
 //15
-let words = ['Madrid', 'rome', 'Milan', 'berlin'];
+// let words = ['Madrid', 'rome', 'Milan', 'berlin'];
 
-let filteredWords = words.filter(word => 
-    word.toLowerCase().includes('m')
-);
+// let filteredWords = words.filter(word => 
+//     word.toLowerCase().includes('m')
+// );
 
-console.log(filteredWords);
+// console.log(filteredWords);
 
+
+//16
+
+// function checkLink(link) {
+//     if (link.includes("https://")) {
+//         console.log("კი მოიცავს");
+//     } else {
+//         console.log("არა, არ მოიცავს");
+//     }
+// }
+
+
+// let link = "https://google.com";
+// checkLink(link);
+
+
+//17
+// let array6 = [-1, -2, -3, 4];
+
+// function hasPositiveNumber(arr) {
+//     return arr.some(num => num > 0);
+// }
+
+// if (hasPositiveNumber(array6)) {
+//     console.log("Yes, there is at least one positive number.");
+// } else {
+//     console.log("No, there are no positive numbers.");
+// }
+
+
+//18
+
+// let str = '12345';
+
+// let charArray = str.split('');
+// let numArray = charArray.map(char => Number(char));
+// let sum = numArray.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+
+// console.log("The sum of the numbers is:", sum);
+
+
+
+//19
+// let numbers = [1, 2, 3, 4, 5];
+
+// let sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+
+// console.log("The sum of the numbers is:", sum);
+
+//20
+// let arr1 = [1, 2];
+// let arr2 = [3, 4];
+// let arr3 = [5, 6];
+
+// let combinedArray = arr1.concat(arr2, arr3);
+
+// console.log(combinedArray);
